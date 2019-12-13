@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cleansing">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtproduk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Review Toner"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="35sp"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/senkaclean"
+                android:layout_margin="5dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Senka\nPerfect Whipn"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Memberikan busa yang padat, melimpah, dan lembut.
+Produk ini mampu membersihkan kotoran, makeup, dan sebum berlebih hingga ke pori-pori tanpa memberikan rasa kesat setelah penggunaan."
+                    android:textSize="15sp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp26.000,00"
+                    android:textSize="12sp"
+                    android:textColor="#000"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/tbsclean"
+                android:layout_margin="5dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Body Shop\nAloe Foaming Facial Wash"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Berbahan dasar Aloe vera yang mampu melembapkan dan menenangkan kulit kering sensitif
+The Body Shop Aloe Vera Gentle Foaming Wash adalah sabun muka berbahan dasar Aloe dari Meksiko yang dibuat untuk kulit sensitif.
+Setelah menggunakannya, wajah akan terasa bersih, segar, dan tenang. "
+                    android:textSize="15sp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp139.000,00"
+                    android:textSize="12sp"
+                    android:textColor="#000"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000"
+            android:orientation="vertical">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/cetapclean"
+                android:layout_margin="5dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cetaphil\nGentle Skin Cleanser"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dapat digunakan dengan atau tanpa air!
+Produk bebas sabun ini tidak hanya dapat digunakan di kulit wajah, tetapi juga seluruh tubuh.
+Selain itu, sabun muka ini juga dapat melembapkan berbagai jenis kulit dari berbagai umur, bahkan kulit bayi sekalipun!
+Formulanya yang lembut efektif membersihkan sel kulit mati, polusi, dan kotoran yang menempel.
+"
+                    android:textSize="15sp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp148.000,00"
+                    android:textSize="12sp"
+                    android:textColor="#000"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/kilsclean"
+                android:layout_margin="5dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kiehl’s\nCalendula Deep Cleansing Foaming Face Wash"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="engangkat kotoran dengan sempurna tanpa pengelupasan
+Produk yang berasal dari Amerika Serikat ini mengandung ekstrak Calendula dan ekstrak minyak dari bunga marigold sehingga membuat kulit Anda halus dan nyaman.
+Produk ini dengan perlahan mengangkat kotoran dan minyak di wajah Anda tanpa proses pengelupasan, aman untuk kulit sensitif."
+                    android:textSize="15sp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp180.000,00"
+                    android:textSize="12sp"
+                    android:textColor="#000"/>
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/shopcleansing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_pink"
+            android:text=" Cari di Shopee "
+            android:onClick="ShopCleansing"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+</ScrollView>

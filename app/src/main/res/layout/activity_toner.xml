@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".toner">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtproduk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Review Toner"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="35sp"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/sk2toner"
+                android:layout_margin="5dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SK-II \nFacial Treatment Clear Lotion"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Face toner yang populer dari SK-II ini memiliki kandungan andalan yaitu AHA dan Pitera™.
+Pitera adalah formula dengan bahan alami kaya vitamin, asam amino, dan
+mineral yang ampuh meregenerasi kulit dan membuat wajah terasa kenyal, lembut, dan tampak bercahaya seketika!
+"
+                    android:textSize="15sp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp763.000,00"
+                    android:textSize="12sp"
+                    android:textColor="#000"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/cosrxtoner"
+                android:layout_margin="5dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COSRX \nCentella Water Alcohol-Free Toner"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mengembalikan kelembapan kulit yang hilang akibat stres atau iritasi
+Kandungan ekstrak daun Centella asiatica yang terdapat pada face toner ini didesain khusus untuk menenangkan kulit yang sedang stres dan iritasi.
+Hanya dengan satu kali pemakaian, kelembapan yang hilang dapat dikembalikan sehingga kulit terasa lembut dan nyaman."
+                    android:textSize="15sp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp159.000,00"
+                    android:textSize="12sp"
+                    android:textColor="#000"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000"
+            android:orientation="vertical">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/bentontoner"
+                android:layout_margin="5dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Benton\nAloe BHA Skin Toner"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Memberi kelembapan ekstra sambil mencegah jerawat datang, tidak hanya ekstrak Aloe vera,toner dari Benton ini juga mengandung
+BHA dan snail secretion filtrate yang ampuh dalam menahan kadar air pada kulit. Selain melembapkan dengan hyaluronic acid,
+face toner ini juga berfungsi sebagai anti-acne."
+                    android:textSize="15sp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp148.000,00"
+                    android:textSize="12sp"
+                    android:textColor="#000"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/wardahtoner"
+                android:layout_margin="5dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wardah\nHydrating Toner"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Produk ekonomis yang mampu menjaga keseimbangan pH kulit wajah dengan formula pH balance dan bebas alkohol
+sehingga penggunaannya aman pada kulit sensitif Anda. Keseimbangan pH membuat kulit tetap sehat dan kelembapannya terjaga.
+Selain itu, kekuatan hidrasinya sangat ampuh dan tidak menyebabkan lengket!"
+                    android:textSize="15sp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp18.500,00"
+                    android:textSize="12sp"
+                    android:textColor="#000"/>
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/shoptoner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_pink"
+            android:text=" Cari di Shopee "
+            android:onClick="ShopToner"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+</ScrollView>

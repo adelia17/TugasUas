@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".sk2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/sk2toner"
+            android:layout_margin="5dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SK-II \nFacial Treatment Clear Lotion"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Face toner yang populer dari SK-II ini memiliki kandungan andalan yaitu AHA dan Pitera™.
+Pitera adalah formula dengan bahan alami kaya vitamin, asam amino, dan
+mineral yang ampuh meregenerasi kulit dan membuat wajah terasa kenyal, lembut, dan tampak bercahaya seketika!
+"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp763.000,00"
+                android:textSize="12sp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#000"
+        android:orientation="vertical">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/sk2serum"
+            android:layout_margin="5dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SK-II \n R.N.A POWER Essence Serum"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Serum anti-aging super untuk kulit wajah semakin lembut, kencang, dan memukau!
+Salah satu produk unggulan SK-II adalah serum anti-aging ini. Inilah pilihan yang sempurna bagi Anda yang ingin memperlambat proses penuaan kulit."
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp1.092.500,00"
+                android:textSize="12sp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#000"
+        android:orientation="vertical">
+    </LinearLayout>
+
+
+</LinearLayout>

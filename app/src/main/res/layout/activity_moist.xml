@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".moist">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtproduk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Review Moisturizer"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="35sp"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/cliniquemois"
+                android:layout_margin="5dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clinique Moisture Surge Intense Skin Fortifying Hydrator"
+                    android:textColor="#000"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Karena memiliki kandungan oil free, antioksidan dan air, produk yang satu ini tidak akan menyumbat pori-pori,
+sehingga dapat terus menjaga kulit dari dehidrasi. "
+                    android:textSize="15sp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.163.000,00"
+                    android:textSize="12sp"
+                    android:textColor="#000"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/tbsmois"
+                android:layout_margin="5dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Body Shop Vitamin E Moisture Cream "
+                    android:textColor="#000"
+                    android:layout_marginBottom="15sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pelembab wajah dari cruelty free brand ini diklaim memiliki tekstur yang ringan.
+Untuk kamu yang memiliki kulit kering, pelembab ini cocok digunakan karena mengandung banyak kandungan pelembab,
+di antaranya adalah Hyaluronic Acid, vitamin E, dan Aloe Vera. "
+                    android:textSize="15sp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.167.000,00"
+                    android:textSize="12sp"
+                    android:textColor="#000"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/wardahtoner"
+                android:layout_margin="5dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Wardah Purifying Moisturizer Gel"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dengan ekstrak Witch Hazel, kulit wajahmu akan lebih lembab sekaligus mengecilkan pori-pori.
+Selain itu, Wardah Purifying Moisturizer Gel ini mengandung kombinasi provitamin B5, humectant dan vitamin E."
+                    android:textSize="15sp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.16.000,00"
+                    android:textSize="12sp"
+                    android:textColor="#000"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/nrmois"
+                android:layout_margin="5dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nature Republic"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="gel ini recommended banget untuk di gunakan, 92% kandungannya adalah aloe vera yang merupakan bahan alami.
+Nature republic gel ini juga dapat memenuhi klaimnya yaitu melembabkan dan menenangkan kulit."
+                    android:textSize="15sp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.90.000,00"
+                    android:textSize="12sp"
+                    android:textColor="#000"/>
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/shopmoist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_pink"
+            android:text=" Cari di Shopee "
+            android:onClick="ShopMoist"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kiehls">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/kilsclean"
+            android:layout_margin="5dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kiehls Midnight Recovery Concentrate"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "Aroma lavendernya mampu membuat Anda rileks saat tidur di malam hari
+Perpaduan aroma lavender yang merelaksasi dan serum perawatan kulit dapat Anda temukan dalam produk ini.
+Ampuh bekerja meregenerasi dan memperbaiki kulit di malam hari, kulit Anda akan tampak lebih muda pada keesokan harinya.
+Produk ini menampilkan kesan glowing di pagi hari sehingga wajah terlihat lebih cerah dan bersinar"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp139.000,00"
+                android:textSize="12sp"
+                android:textColor="#000"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#000"
+        android:orientation="vertical">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/kilsserum"
+            android:layout_margin="5dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kiehls \nMidnight Recovery Concentrate"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Produk ini ampuh bekerja meregenerasi dan memperbaiki kulit di malam hari, kulit Anda akan tampak lebih muda pada keesokan harinya.
+Produk ini menampilkan kesan glowing di pagi hari sehingga wajah terlihat lebih cerah dan bersinar."
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp139.000,00"
+                android:textSize="12sp"
+                android:textColor="#000"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

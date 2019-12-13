@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/latarhome"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="131dp"
+        android:src="@drawable/icon1"
+        android:layout_marginTop="110dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryLight"
+        android:textSize="40sp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/userlogin"
+        android:layout_width="275dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="#ffff"
+        android:drawableLeft="@drawable/ic_user"
+        android:hint=" Username"
+        android:inputType="textPersonName"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/passlogin"
+        android:layout_width="275dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:background="#ffff"
+        android:drawableLeft="@drawable/ic_lock"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_button_pink"
+        android:text=" Login "
+        android:textColor="@color/colorWhite"/>
+
+
+
+
+
+</LinearLayout>

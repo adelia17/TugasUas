@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.skincareapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon1"
+        android:label="Skincare App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".senka"></activity>
+        <activity android:name=".wardah" />
+        <activity android:name=".sk2" />
+        <activity android:name=".tbs" />
+        <activity android:name=".natrep" />
+        <activity android:name=".laneige" />
+        <activity android:name=".kiehls" />
+        <activity android:name=".innisfree" />
+        <activity android:name=".garnier" />
+        <activity android:name=".cosrx" />
+        <activity android:name=".clinique" />
+        <activity android:name=".cetaphil2" />
+        <activity android:name=".benton" />
+        <activity android:name=".moist" />
+        <activity android:name=".listproduk" />
+        <activity android:name=".toner" />
+        <activity android:name=".cleansing" />
+        <activity android:name=".serum" />
+        <activity
+            android:name=".halpertama"
+            android:label="@string/title_activity_halpertama"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".signup" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".splashactivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

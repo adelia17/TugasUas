@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:src="@drawable/cetapclean"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cetaphil Gentle Skin Cleanser"
+            android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Memberikan busa yang padat, melimpah, dan lembut.
+Produk ini mampu membersihkan kotoran, makeup, dan sebum berlebih hingga ke pori-pori tanpa memberikan rasa kesat setelah penggunaan.
+Ditambah dengan aroma yang segar, kegiatan mencuci muka Anda akan terasa menyenangkan! Memberikan busa yang padat, melimpah, dan lembut.
+Produk ini mampu membersihkan kotoran, makeup, dan sebum berlebih hingga ke pori-pori tanpa memberikan rasa kesat setelah penggunaan.
+Ditambah dengan aroma yang segar, kegiatan mencuci muka Anda akan terasa menyenangkan! "
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.180.000"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:orientation="horizontal"
+        android:background="#000">
+    </LinearLayout>
+
+</LinearLayout>
